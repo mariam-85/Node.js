@@ -1,0 +1,11 @@
+Настройка проекта
+
+1. Создаем файл index.js
+2. Инициализируем проект - npm init -y (npm init)
+3. *Инициализируем git (если ранее не был инициализирован) - git init
+4. Устанавливаем expressJS - npm i express 
+5. Создаем .gitignore, записываем туда /node_modules
+6. Создать в package.json скрипт "start": "node index.js"
+7. Устанавливаем nodemon - npm i -D nodemon
+8. Поменять в package.json скрипт "start": "node index.js" на "start": "nodemon index.js"
+Footer
